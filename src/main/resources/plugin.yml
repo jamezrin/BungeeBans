@@ -1,0 +1,5 @@
+name: BungeeBans
+main: me.jaime29010.bungeebans.Main
+author: jaime29010
+version: 1.0
+depends: [RedisBungee]

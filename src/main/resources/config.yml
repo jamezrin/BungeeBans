@@ -1,0 +1,38 @@
+mysql:
+  address: localhost
+  port: 3306
+  database: minecraft
+  username: root
+  password: topsecret
+
+messages:
+  # Placeholders: {command}
+  command_usage:
+    - '&cUsage for this command: /{command} &7<name>'
+
+  # Placeholders: none
+  already_banned: '&cThat player is already banned'
+
+  # Placeholders: none
+  player_offline: '&cThat player has to be online to ban his ip!'
+
+  # Placeholders: none
+  successful_unban: '&aYou have successfully unbanned that player'
+
+  # Placeholders: none
+  successful_unbanip: '&aYou have successfully unbanned the ip of that player'
+
+  # Placeholders: none
+  player_not_banned: '&cYou cannot unban a player that is not banned'
+
+  # Placeholders:  {punisher} {punished}
+  gban_reason: '&6{punisher} &cbanned you ({punished}) for life'
+
+  # Placeholders:  {punisher} {punished} {address}
+  gbanip_reason: '&6{punisher} &cbanned your IP &7({address}) for life'
+
+  # Placeholders: {punisher} {punished}
+  gban_broadcast: '&9Punish> &6{punisher} &cbanned &7{punished} for life'
+
+  # Placeholders:  {punisher} {punished} {address}
+  gbanip_broadcast: '&9Punish> &6{punisher} &cbanned &7{punished} IP &7({address})&c for life'
